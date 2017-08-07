@@ -21,9 +21,9 @@ GET /_analyze?analyzer=hanLp-index&pretty=true
 
 测试是否安装成功
 
-analyzer有hanLp-index（索引模式）和hanLp-smart（智能模式）
-hanLp-index尽可能的切分多的结果
-hanLp-smart切分少的词
+analyzer有hanlp-index（索引模式）和hanlp-smart（智能模式）
+hanlp-index尽可能的切分多的结果
+hanlp-smart切分少的词
 
 自定义词典
 修改plugins/analysis-hanlp/data/dictionary/custom下的 我的词典.txt文件
