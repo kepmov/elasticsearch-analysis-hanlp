@@ -3,7 +3,9 @@
 安装步骤： 
 
 1、下载插件并解压到es的plugins目录下
+
    修改analysis-hanlp目录下的hanlp.properties文件
+   
    修改root的属性，值为analysis－hanlp下的data 目录的地址
 
 2、修改es config目录下的jvm.options文件，最后一行添加
@@ -22,8 +24,10 @@ GET /_analyze?analyzer=hanlp-index&pretty=true
 测试是否安装成功
 
 analyzer有hanlp-index（索引模式）和hanlp-smart（智能模式）
-hanlp-index尽可能的切分多的结果
-hanlp-smart切分少的词
+
+hanlp-index：尽可能的切分多的结果
+
+hanlp-smart：切分少的词
 
 自定义词典：
 
