@@ -25,7 +25,8 @@ analyzer有hanlp-index（索引模式）和hanlp-smart（智能模式）
 hanlp-index尽可能的切分多的结果
 hanlp-smart切分少的词
 
-自定义词典
+自定义词典：
+
 修改plugins/analysis-hanlp/data/dictionary/custom下的 我的词典.txt文件
 
 格式遵从[单词] [词性A] [A的频次]
