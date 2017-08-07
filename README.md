@@ -8,9 +8,9 @@
    
    	修改root的属性，值为analysis－hanlp下的data 目录的地址
    
-   	修改analysis-hanlp目录下的plugin-descriptor.properties文件
+	修改analysis-hanlp目录下的plugin-descriptor.properties文件
    
-   	修改elasticsearch的版本为你当前的版本elasticsearch.version=5.5.1
+	修改elasticsearch的版本为你当前的版本elasticsearch.version=5.5.1
 
 2、修改es config目录下的jvm.options文件，最后一行添加
 
@@ -18,13 +18,13 @@
 
 重启es
 
-GET /_analyze?analyzer=hanlp-index&pretty=true 
+	GET /_analyze?analyzer=hanlp-index&pretty=true 
 
-{ 
+	{ 
 
-“text”:”张柏芝士蛋糕店” 
+	“text”:”张柏芝士蛋糕店” 
 
-}
+	}
 
 
 测试是否安装成功
