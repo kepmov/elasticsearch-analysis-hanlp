@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.elasticsearch:elasticsearch:5.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-backward-codecs:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-grouping:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-highlighter:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-join:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-memory:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-misc:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-spatial:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-spatial-extras:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-spatial3d:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-suggest:6.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch:securesm:1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.jopt-simple:jopt-simple:5.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.carrotsearch:hppc:0.7.1" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.5" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.15" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.tdunning:t-digest:3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.6" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:4.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.HanLP:hanlp:1.2.8">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/hanlp-1.2.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-RC2" level="project" />
+    <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.0.0-RC1" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-RC2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:6.4.0" level="project" />
+  </component>
+</module>
