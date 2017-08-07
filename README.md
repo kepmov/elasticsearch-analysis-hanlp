@@ -14,7 +14,7 @@
 重启es
 
 
-GET /_analyze?analyzer=hanLp-index&pretty=true 
+GET /_analyze?analyzer=hanlp-index&pretty=true 
 { 
 “text”:”张柏芝士蛋糕店” 
 }
