@@ -1,7 +1,8 @@
 # elasticsearch-analysis-hanlp
 
 安装步骤： 
-1、进入https://github.com/pengcong90/elasticsearch-analysis-hanlp，下载插件并解压到es的plugins目录下，修改analysis-hanlp目录下的hanlp.properties文件，修改root的属性，值为analysis－hanlp下的data 
+
+1、下载插件并解压到es的plugins目录下，修改analysis-hanlp目录下的hanlp.properties文件，修改root的属性，值为analysis－hanlp下的data 
 目录的地址
 
 2、修改es config目录下的jvm.options文件，最后一行添加 
