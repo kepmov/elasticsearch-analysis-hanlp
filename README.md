@@ -10,7 +10,7 @@
    
 	修改analysis-hanlp目录下的plugin-descriptor.properties文件
    
-	修改elasticsearch的版本为你当前的版本elasticsearch.version=5.5.1
+	修改elasticsearch的版本为你当前的版本elasticsearch.version=你的es版本号(like:5.5.1)
 
 2、修改es config目录下的jvm.options文件，最后一行添加
 
