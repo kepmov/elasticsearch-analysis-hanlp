@@ -19,7 +19,7 @@ public class HanLPAnalyzerProvider extends AbstractIndexAnalyzerProvider<HanLPIn
     @Inject
     public HanLPAnalyzerProvider(IndexSettings indexSettings, Environment env, @Assisted String name, @Assisted Settings settings) {
         super(indexSettings, name, settings);
-        Predefine.HANLP_PROPERTIES_PATH = sysPath.substring(0, sysPath.length()-4) + "/plugins/analysis-hanlp/hanlp.properties";
+        Predefine.HANLP_PROPERTIES_PATH = sysPath.substring(0, sysPath.length()-4) + File.separator  + "plugins" + File.separator + "analysis-hanlp" + File.separator + "hanlp.properties";
         analyzer = new HanLPIndexAnalyzer(true);
     }
 
