@@ -1,16 +1,14 @@
 package org.elasticsearch.index.analysis;
 
-import com.hankcs.hanlp.HanLP;
-import com.hankcs.hanlp.seg.Segment;
-import com.hankcs.hanlp.seg.common.Term;
 import com.hankcs.hanlp.utility.Predefine;
-import com.hankcs.lucene4.HanLPTokenizer;
-import org.apache.lucene.analysis.Tokenizer;
+import com.hankcs.lucene4.HanLPIndexAnalyzer;
+import org.elasticsearch.common.inject.Inject;
+import org.elasticsearch.common.inject.assistedinject.Assisted;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.env.Environment;
 import org.elasticsearch.index.IndexSettings;
-
-import java.util.List;
+import java.io.File;
+import java.nio.file.Path;
 
 /**
  */
@@ -18,11 +16,11 @@ public class HanLPTokenizerFactory extends AbstractTokenizerFactory {
 
     private boolean enablePorterStemming;
     private boolean enableIndexMode;
-    private static String sysPath = String.valueOf(System.getProperties().get("user.dir")) ;
 
     public HanLPTokenizerFactory(IndexSettings indexSettings, Environment env, String name, Settings settings) {
         super(indexSettings, name, settings);
-        Predefine.HANLP_PROPERTIES_PATH = sysPath.substring(0, sysPath.length()-4) + File.separator  + "plugins" + File.separator + "analysis-hanlp" + File.separator + "hanlp.properties";
+        Path pluginsDir = env.pluginsFile();
+        Predefine.HANLP_PROPERTIES_PATH = pluginsDir.toString() + File.separator + "analysis-hanlp" + File.separator + "hanlp.properties";
         enablePorterStemming = settings.getAsBoolean("enablePorterStemming", false);
     }
 
