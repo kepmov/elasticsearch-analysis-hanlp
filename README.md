@@ -11,7 +11,7 @@
 
 2、修改es config目录下的jvm.options文件，最后一行添加
 
-	-Djava.security.policy=../plugins/analysis-hanlp/plugin-security.policy
+	-Djava.security.policy=/home/es/elasticsearch-7.0.1/plugins/analysis-hanlp/plugin-security.policy(地址换成你自己的地址)
 
 重启es
 
