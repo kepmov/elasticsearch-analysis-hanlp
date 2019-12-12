@@ -27,11 +27,11 @@
 测试是否安装成功
 
 
-analyzer有hanlp-index（索引模式）和hanlp-smart（智能模式）
+analyzer有hanlp_max_word（索引模式）和hanlp_smart（智能模式）
 
-hanlp-index：尽可能的切分多的结果
+hanlp_max_word：尽可能的切分多的结果
 
-hanlp-smart：切分少的词
+hanlp_smart：切分少的词
 
 自定义词典：
 
